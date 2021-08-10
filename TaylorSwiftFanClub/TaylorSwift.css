@@ -1,0 +1,170 @@
+
+
+html,body
+{
+    margin: 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+/* page 1 packground*/
+.fixed-bg{
+
+    background: url("T1.jpg");
+    background-size: 90%;
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin-bottom: -40px;
+    
+
+
+}
+
+/* page 2 packground*/
+.fixed-bg-2{
+    margin-top: 0px;
+    background: url("Taylor/T-3.png");
+    background-size: 100%;
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin-bottom: -44px;
+
+}
+
+
+/* page 3 packground*/
+.fixed-bg-3{
+    margin: 0px;
+    background: url("Taylor/w.png");
+    background-size: 100%;
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin-bottom: -40px;
+
+}
+
+
+
+
+/* navigation pannel*/
+nav ul li{
+    display: inline-block;/*used to bring the ul in same line*/
+    /*list-style: none;/* ??????????*/
+    margin: 0px 40px;
+    font-size: 17px;
+    padding-top: 1px;
+    font-family: Copperplate;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+/*body{
+    background: url("/Users/ranju/Desktop/Gendral/Taylor/T1.jpg");
+    background-size: 90%;
+    background-position: right;
+    background-attachment: fixed;
+    animation: zoom-out 3s linear infinite;
+}*/
+
+/*Text on page 1*/
+.swift{
+    position: absolute;
+    top: 300px;
+    left: 190px;
+    color: white;
+
+}
+
+
+/*
+.pic{
+    background: url("/Users/ranju/Desktop/Gendral/Taylor/original.png");
+}*/
+
+
+/*Text on page 2*/
+.swift-1{
+    position: absolute;
+    left: 50px;
+    color: black;
+}
+
+
+        /*Alingnmet for album covers*/
+        .t{  
+             display: inline-block;
+             margin: 0px 20px;
+          }
+
+
+
+
+              /*For the play buttons*/
+              .s{
+                cursor: pointer;
+                 position: absolute;
+                  left: 390px;
+                  top: 600px;
+                 }
+              .s1{
+                cursor: pointer;
+                 position: absolute;
+                  left: 830px;
+                  top: 600px;
+                  }
+              .s3{
+                cursor: pointer;
+                 position: absolute;
+                  left: 1275px;
+                  top: 600px;
+                  }
+
+
+
+
+    /* half image*/
+    .half{
+         cursor: none;
+         position: absolute;
+         left: 1040px;
+         top: 1655px;
+        }
+
+
+
+/*white background*/
+.boy{
+    position: absolute;
+    top: 1750px;
+    right: 500px;
+    color: white;
+
+}
+
+
+

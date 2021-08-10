@@ -1,0 +1,62 @@
+form{
+	font-family: font-family:Brush Script MT, cursive;
+	color:  #e6e6e6;
+	font-style: italic;
+}
+
+div.main
+{
+width: 500px;
+margin: 70px auto 0px auto;
+background-color: rgba(0, 0, 0,0.5);
+border-radius: 10px;
+line-height: 23px;
+}
+form#tinder
+{
+	margin: 40px;
+
+}
+
+b/*title*/
+{
+	padding: 100px;
+	font-family: font-family:Brush Script MT, cursive;
+	text-align: center;
+
+}
+body
+{   
+	background: url("/Users/ranju/Desktop/Gendral/Taylor/ae3.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+	background-position: no-repeat;
+}
+input#love
+{
+	width: 300px;
+	background-color: #e6e6e6;
+	border: 0px;
+	
+
+}
+input#love1
+{
+	background-color: #e6e6e6;
+	border: 0px;
+
+}
+input#love3
+{
+	width: 200px;
+	background-color: #e6e6e6;
+	border: 0px;
+	}
+div.bot{
+	margin-left: 10px;
+}
+.button{
+	cursor: pointer;
+	margin-left: 430px;
+    font-family: font-family:Brush Script MT, cursive;
+}
